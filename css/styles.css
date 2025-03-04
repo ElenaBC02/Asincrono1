@@ -18,11 +18,9 @@ img {
     margin: 0px 10px;
 }
 
-.wrapper {
-    img {
-        width: 100%;
-        height: 100%;
-    }
+.box__img {
+    width: 100%;
+    height: 100%;
 }
 
 .boxA {

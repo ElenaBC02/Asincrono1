@@ -46,16 +46,12 @@ img {
     justify-content: center;
 }
 
-.footer__info__logos {
-    img {
-        width: 20px;
-    }
+.footer__info__logos__img {
+    width: 20px;
 }
 
-.footer__info__logos {
-    figure {
-        padding: 5px 15px;
-    }
+.footer__info__logos__figure {
+    padding: 5px 15px;
 }
 
 .footer__qode {

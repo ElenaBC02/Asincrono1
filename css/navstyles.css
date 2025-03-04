@@ -28,12 +28,7 @@ img {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: .125rem;
-}
-
-.nav__pages {
-    div {
-        margin: 25px;
-    }
+    margin: 25px;
 }
 
 .nav__pages__main--active:hover {
