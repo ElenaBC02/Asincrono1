@@ -31,6 +31,10 @@ img {
     margin: 25px;
 }
 
+.text {
+    margin: 25px;
+}
+
 .nav__pages__main--active:hover {
     color: #696969
 }
