@@ -32,14 +32,6 @@ img {
     background-color: rgb(238, 231, 215);
 }
 
-.boxA:hover img {
-    position: relative;
-    z-index: auto;
-    bottom: 1%;
-    transform: scale(1.03); 
-    transition: transform 0.5s ease-in-out; 
-}
-
 .boxB {
     grid-column: span 1;
     grid-row: span 1;
@@ -48,14 +40,6 @@ img {
     overflow: hidden;
     background-color: rgb(199, 183, 150);
 }
-
-.boxB:hover img {
-    position: relative;
-    z-index: auto;
-    bottom: 1%;
-    transform: scale(1.03);
-    transition: transform 0.5s ease-in-out; 
- }
 
 .boxC {
     grid-column: span 1;
@@ -66,14 +50,6 @@ img {
     background-color: rgb(204, 216, 180);
 }
 
-.boxC:hover img {
-    position: relative;
-    z-index: auto;
-    bottom: 1%;
-    transform: scale(1.03);
-    transition: transform 0.5s ease-in-out; 
- }
-
 .boxD {
     grid-column: span 1;
     grid-row: span 1;
@@ -82,14 +58,6 @@ img {
     overflow: hidden;
     background-color: rgb(235, 193, 153);
 }
-
-.boxD:hover img {
-    position: relative;
-    z-index: auto;
-    bottom: 1%;
-    transform: scale(1.03);
-    transition: transform 0.5s ease-in-out; 
- }
 
 .boxE {
     grid-column: span 2;
@@ -100,14 +68,6 @@ img {
     background-color: rgb(216, 202, 176);
 }
 
-.boxE:hover img {
-    position: relative;
-    z-index: auto;
-    bottom: 1%;
-    transform: scale(1.03);
-    transition: transform 0.5s ease-in-out; 
- }
-
 .boxF {
     grid-column: span 1;
     grid-row: span 1;
@@ -116,14 +76,6 @@ img {
     overflow: hidden;
     background-color: rgb(204, 216, 180);
 }
-
-.boxF:hover img {
-    position: relative;
-    z-index: auto;
-    bottom: 1%;
-    transform: scale(1.03);
-    transition: transform 0.5s ease-in-out; 
- }
 
 .boxG {
     grid-column: span 1;
@@ -134,14 +86,6 @@ img {
     background-color: rgb(238, 231, 215);
 }
 
-.boxG:hover img {
-    position: relative;
-    z-index: auto;
-    bottom: 1%;
-    transform: scale(1.03);
-    transition: transform 0.5s ease-in-out; 
- }
-
 .boxH {
     grid-column: span 1;
     grid-row: span 1;
@@ -151,14 +95,6 @@ img {
     background-color: rgb(238, 231, 215);
 }
 
-.boxH:hover img {
-    position: relative;
-    z-index: auto;
-    bottom: 1%;
-    transform: scale(1.03);
-    transition: transform 0.5s ease-in-out; 
- }
-
 .boxI {
     grid-column: span 2;
     grid-row: span 2;
@@ -166,14 +102,6 @@ img {
     height: 100%;
     overflow: hidden;
     background-color: rgb(116, 151, 111);
-}
-
-.boxI:hover img {
-    position: relative;
-    z-index: auto;
-    bottom: 1%;
-    transform: scale(1.03);
-    transition: transform 0.5s ease-in-out; 
 }
 
 .boxK {
@@ -185,14 +113,6 @@ img {
     background-color: rgb(235, 193, 153);
 }
 
-.boxK:hover img {
-    position: relative;
-    z-index: auto;
-    bottom: 1%;
-    transform: scale(1.03);
-    transition: transform 0.5s ease-in-out; 
- }
-
 .boxJ {
     grid-column: span 1;
     grid-row: span 1;
@@ -201,14 +121,6 @@ img {
     overflow: hidden;
     background-color: rgb(216, 202, 176);
 }
-
-.boxJ:hover img {
-    position: relative;
-    z-index: auto;
-    bottom: 1%;
-    transform: scale(1.03);
-    transition: transform 0.5s ease-in-out; 
- }
 
  .boxL {
     grid-column: span 1;
@@ -219,15 +131,7 @@ img {
     background-color: rgb(204, 216, 180);
 }
 
-.boxL:hover img {
-    position: relative;
-    z-index: auto;
-    bottom: 1%;
-    transform: scale(1.03);
-    transition: transform 0.5s ease-in-out; 
- }
-
- .boxM {
+.boxM {
     grid-column: span 1;
     grid-row: span 1;
     width: 100%;
@@ -236,14 +140,6 @@ img {
     background-color: rgb(116, 151, 111);
 }
 
-.boxM:hover img {
-    position: relative;
-    z-index: auto;
-    bottom: 1%;
-    transform: scale(1.03);
-    transition: transform 0.5s ease-in-out; 
- }
-
 .boxN {
     grid-column: span 1;
     grid-row: span 1;
@@ -251,14 +147,6 @@ img {
     height: 100%;
     overflow: hidden;
     background-color: rgb(238, 231, 215);
-}
-
-.boxN:hover img {
-    position: relative;
-    z-index: auto;
-    bottom: 1%;
-    transform: scale(1.03);
-    transition: transform 0.5s ease-in-out; 
 }
 
 .boxO {
@@ -270,14 +158,6 @@ img {
     background-color: rgb(216, 202, 176);
 }
 
-.boxO:hover img {
-    position: relative;
-    z-index: auto;
-    bottom: 1%;
-    transform: scale(1.03);
-    transition: transform 0.5s ease-in-out; 
-}
-
 .boxP {
     grid-column: span 1;
     grid-row: span 1;
@@ -285,14 +165,6 @@ img {
     height: 100%;
     overflow: hidden;
     background-color: rgb(238, 231, 215);
-}
-
-.boxP:hover img {
-    position: relative;
-    z-index: auto;
-    bottom: 1%;
-    transform: scale(1.03);
-    transition: transform 0.5s ease-in-out; 
 }
 
 .boxQ {
@@ -304,14 +176,6 @@ img {
     background-color: rgb(238, 231, 215);
 }
 
-.boxQ:hover img {
-    position: relative;
-    z-index: auto;
-    bottom: 1%;
-    transform: scale(1.03);
-    transition: transform 0.5s ease-in-out; 
-}
-
 .boxR {
     grid-column: span 1;
     grid-row: span 1;
@@ -319,14 +183,6 @@ img {
     height: 100%;
     overflow: hidden;
     background-color: rgb(204, 216, 180);
-}
-
-.boxR:hover img {
-    position: relative;
-    z-index: auto;
-    bottom: 1%;
-    transform: scale(1.03);
-    transition: transform 0.5s ease-in-out; 
 }
 
 .boxS {
@@ -338,14 +194,6 @@ img {
     background-color: rgb(238, 231, 215);
 }
 
-.boxS:hover img {
-    position: relative;
-    z-index: auto;
-    bottom: 1%;
-    transform: scale(1.03);
-    transition: transform 0.5s ease-in-out; 
-}
-
 .boxT {
     grid-column: span 1;
     grid-row: span 1;
@@ -353,14 +201,6 @@ img {
     height: 100%;
     overflow: hidden;
     background-color: rgb(216, 202, 176);
-}
-
-.boxT:hover img {
-    position: relative;
-    z-index: auto;
-    bottom: 1%;
-    transform: scale(1.03);
-    transition: transform 0.5s ease-in-out; 
 }
 
 .boxU {
@@ -372,7 +212,7 @@ img {
     background-color: rgb(238, 231, 215);
 }
 
-.boxU:hover img {
+.box:hover img {
     position: relative;
     z-index: auto;
     bottom: 1%;
