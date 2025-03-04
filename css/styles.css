@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+img {
+    aspect-ratio: auto;
+}
+
+.wrapper {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px 10px;
+}
+
+.wrapper {
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.boxA {
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(238, 231, 215);
+}
+
+.boxA:hover img {
+    position: relative;
+    z-index: auto;
+    bottom: 1%;
+    transform: scale(1.03); 
+    transition: transform 0.5s ease-in-out; 
+}
+
+.boxB {
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(199, 183, 150);
+}
+
+.boxB:hover img {
+    position: relative;
+    z-index: auto;
+    bottom: 1%;
+    transform: scale(1.03);
+    transition: transform 0.5s ease-in-out; 
+ }
+
+.boxC {
+    grid-column: span 1;
+    grid-row: span 2;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(204, 216, 180);
+}
+
+.boxC:hover img {
+    position: relative;
+    z-index: auto;
+    bottom: 1%;
+    transform: scale(1.03);
+    transition: transform 0.5s ease-in-out; 
+ }
+
+.boxD {
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(235, 193, 153);
+}
+
+.boxD:hover img {
+    position: relative;
+    z-index: auto;
+    bottom: 1%;
+    transform: scale(1.03);
+    transition: transform 0.5s ease-in-out; 
+ }
+
+.boxE {
+    grid-column: span 2;
+    grid-row: span 2;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(216, 202, 176);
+}
+
+.boxE:hover img {
+    position: relative;
+    z-index: auto;
+    bottom: 1%;
+    transform: scale(1.03);
+    transition: transform 0.5s ease-in-out; 
+ }
+
+.boxF {
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(204, 216, 180);
+}
+
+.boxF:hover img {
+    position: relative;
+    z-index: auto;
+    bottom: 1%;
+    transform: scale(1.03);
+    transition: transform 0.5s ease-in-out; 
+ }
+
+.boxG {
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(238, 231, 215);
+}
+
+.boxG:hover img {
+    position: relative;
+    z-index: auto;
+    bottom: 1%;
+    transform: scale(1.03);
+    transition: transform 0.5s ease-in-out; 
+ }
+
+.boxH {
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(238, 231, 215);
+}
+
+.boxH:hover img {
+    position: relative;
+    z-index: auto;
+    bottom: 1%;
+    transform: scale(1.03);
+    transition: transform 0.5s ease-in-out; 
+ }
+
+.boxI {
+    grid-column: span 2;
+    grid-row: span 2;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(116, 151, 111);
+}
+
+.boxI:hover img {
+    position: relative;
+    z-index: auto;
+    bottom: 1%;
+    transform: scale(1.03);
+    transition: transform 0.5s ease-in-out; 
+}
+
+.boxK {
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(235, 193, 153);
+}
+
+.boxK:hover img {
+    position: relative;
+    z-index: auto;
+    bottom: 1%;
+    transform: scale(1.03);
+    transition: transform 0.5s ease-in-out; 
+ }
+
+.boxJ {
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(216, 202, 176);
+}
+
+.boxJ:hover img {
+    position: relative;
+    z-index: auto;
+    bottom: 1%;
+    transform: scale(1.03);
+    transition: transform 0.5s ease-in-out; 
+ }
+
+ .boxL {
+    grid-column: span 1;
+    grid-row: span 2;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(204, 216, 180);
+}
+
+.boxL:hover img {
+    position: relative;
+    z-index: auto;
+    bottom: 1%;
+    transform: scale(1.03);
+    transition: transform 0.5s ease-in-out; 
+ }
+
+ .boxM {
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(116, 151, 111);
+}
+
+.boxM:hover img {
+    position: relative;
+    z-index: auto;
+    bottom: 1%;
+    transform: scale(1.03);
+    transition: transform 0.5s ease-in-out; 
+ }
+
+.boxN {
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(238, 231, 215);
+}
+
+.boxN:hover img {
+    position: relative;
+    z-index: auto;
+    bottom: 1%;
+    transform: scale(1.03);
+    transition: transform 0.5s ease-in-out; 
+}
+
+.boxO {
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(216, 202, 176);
+}
+
+.boxO:hover img {
+    position: relative;
+    z-index: auto;
+    bottom: 1%;
+    transform: scale(1.03);
+    transition: transform 0.5s ease-in-out; 
+}
+
+.boxP {
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(238, 231, 215);
+}
+
+.boxP:hover img {
+    position: relative;
+    z-index: auto;
+    bottom: 1%;
+    transform: scale(1.03);
+    transition: transform 0.5s ease-in-out; 
+}
+
+.boxQ {
+    grid-column: span 2;
+    grid-row: span 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(238, 231, 215);
+}
+
+.boxQ:hover img {
+    position: relative;
+    z-index: auto;
+    bottom: 1%;
+    transform: scale(1.03);
+    transition: transform 0.5s ease-in-out; 
+}
+
+.boxR {
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(204, 216, 180);
+}
+
+.boxR:hover img {
+    position: relative;
+    z-index: auto;
+    bottom: 1%;
+    transform: scale(1.03);
+    transition: transform 0.5s ease-in-out; 
+}
+
+.boxS {
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(238, 231, 215);
+}
+
+.boxS:hover img {
+    position: relative;
+    z-index: auto;
+    bottom: 1%;
+    transform: scale(1.03);
+    transition: transform 0.5s ease-in-out; 
+}
+
+.boxT {
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(216, 202, 176);
+}
+
+.boxT:hover img {
+    position: relative;
+    z-index: auto;
+    bottom: 1%;
+    transform: scale(1.03);
+    transition: transform 0.5s ease-in-out; 
+}
+
+.boxU {
+    grid-column: span 1;
+    grid-row: span 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(238, 231, 215);
+}
+
+.boxU:hover img {
+    position: relative;
+    z-index: auto;
+    bottom: 1%;
+    transform: scale(1.03);
+    transition: transform 0.5s ease-in-out; 
+}
+
+@media (min-width: 0rem) and (max-width: 35rem) {
+    .wrapper {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        background-color: rgb(255, 255, 255);  
+      }
+
+      .wrapper > div {
+        grid-column: span 1;
+        grid-row: span 1;
+      } 
+}
+
+@media (min-width: 35rem) and (max-width: 50rem) {
+    .wrapper {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        background-color: rgb(255, 255, 255);  
+      }
+
+      .wrapper > div {
+        grid-column: span 1;
+        grid-row: span 1;
+      } 
+}
+
+@media (min-width: 50rem) and (max-width: 75rem) {
+    .wrapper {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        background-color: rgb(255, 255, 255);  
+      } 
+}
+
+@media (min-width: 75rem) and (max-width: 90.0rem) {
+    .wrapper {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        background-color: rgb(255, 255, 255);  
+      } 
+}
